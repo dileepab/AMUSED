@@ -1,0 +1,11 @@
+@import '~bootstrap/scss/bootstrap';
+
+.cardImage {
+  padding-top: 100%;
+  background-size: cover;
+  border-radius: var(--bs-border-radius) var(--bs-border-radius) 0 0;
+}
+
+.refresh-button{
+  width: 150px;
+}
