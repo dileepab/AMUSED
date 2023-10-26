@@ -41,7 +41,7 @@ const Header: React.FC = () => {
                     <div className="d-flex">
                         <Form.Control
                             type="search"
-                            placeholder="Name"
+                            placeholder="Search Cocktail"
                             className="me-2"
                             aria-label="Search"
                             onChange={(ev) => setSearch(ev.target.value)}

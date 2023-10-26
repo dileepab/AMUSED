@@ -52,7 +52,7 @@ const Search: React.FC<SearchProps> = () => {
     // useEffect to trigger the initial search when the location changes
     useEffect(() => {
         setLoading(true);
-        handleSearch(location.state.name);
+        handleSearch(location?.state?.name);
     }, [location]);
 
     return (

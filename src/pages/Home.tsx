@@ -79,7 +79,7 @@ const Home: React.FC = () => {
             {/* Container for the Refresh button */}
             <Container className={'pt-3 pb-3'}>
                 <Button className={'refresh-button'} variant="dark" onClick={fetchCocktailFiveTimes} disabled={loading}>
-                    {loading ? <Spinner size={'sm'} animation="border"/> : 'Refresh'}
+                    {loading ? <Spinner data-testid="loading-spinner" size={'sm'} animation="border"/> : 'Refresh'}
                 </Button>
             </Container>
         </>
